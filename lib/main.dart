@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tailors_ui/screens/appoinment.dart';
+import 'package:tailors_ui/screens/calender.dart';
 import 'package:tailors_ui/screens/intro_screen .dart';
 import 'package:tailors_ui/screens/sign_in_screen.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
 
-      home:AppointmentDetailsScreen(),
+      home:CustomCalendarUI(),
     );
   }
 }

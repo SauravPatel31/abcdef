@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   introduction_screen:
   intl:
+  table_calendar:
 
 dev_dependencies:
   flutter_test:
