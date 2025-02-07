@@ -105,6 +105,7 @@ class AppointmentDetailsScreenState extends State<AppointmentDetailsScreen> {
 
   Widget _buildDateField(String label, dynamic value, IconData icon, VoidCallback onTap) {
     return Column(
+      ///
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(label, style: const TextStyle(fontWeight: FontWeight.bold)),
